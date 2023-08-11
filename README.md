@@ -1,4 +1,4 @@
-# Brain-Connectomics
+# Brain Connectomics piepeline
 This repository contains pipelines to build brain connectivity matrices using Freesurfer's recon-all metrics.
 
 This work is an effort to replicate and reproduce work from [Morphological Brain Age Prediction using Multi-View Brain Networks Derived from Cortical Morphology in Healthy and Disordered Participants ]([url](https://www.nature.com/articles/s41598-019-46145-4#Abs1)) and [Unsupervised Manifold Learning Using High-Order Morphological Brain Networks Derived From T1-w MRI for Autism Diagnosis]([url](https://www.frontiersin.org/articles/10.3389/fninf.2018.00070/full#B61)https://www.frontiersin.org/articles/10.3389/fninf.2018.00070/full#B61).
