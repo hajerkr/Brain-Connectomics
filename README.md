@@ -22,12 +22,13 @@ python MorphBrainNetwork.py --sub_path Data/Subjects/recon-all/ --config_file co
 * ```ho``` : Construct the lower-order matrix for every subject, it takes y/n. The default is y.
 * ```fe``` : Performs feature extraction to construct the connectivity matrix for all subjects, it takes y/n. The default is y.
 
-### MBN_BrainAge_njobs.py
+### MBN_BrainAge.py
 This script trains various models to predict age based on the averaged and concatenated matrices generated using MorphBrainNetwork.py. This script 5 arguments: 
 * ```config_file```: The path to the file containing all the variables needed for the script to run. This includes the main directory,the name of the subjects directory (ex: if your data is under Main_directory/CohortA, then sub_dir would take _CohortA_), the filename of the subjects of interest with their names and age, the model name, and max percentage of features needed by one of the methods of feature selection. Please note that the main directory is where the _Models_ folder will be created to save your models. 
 * ```mode```: Mode should be **avg** or **con**. This is to indicate if the model should used the averaged or concatenated views.
 * ```hem```: Hemisphere **rh** or **lh**
 * ```method```: The method to use to select the features:  **autFeat**, **percentage_max**, **multiple_models**, **RFR**
+* ```feat```: Features to be used in the prediction. This should be a filename of the csv where the first column (Features) contains the the features to be used. Provide the ABSOLUTE PATH.
 * ```n_jobs```: Number of cores used for cross_val function to avoid loky errors. Default is 4 CPUs.
 
 ### SVM_SIMLR.py
