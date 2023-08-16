@@ -1,0 +1,10 @@
+hems: ['rh','lh']
+#View-based matrices
+frontal_views: ['ThickAvg','MeanCurv','MaxPrincipalCurv','FoldInd']
+n_ROIS: 31
+ROIS: ['caudalanteriorcingulate', 'caudalmiddlefrontal', 'cuneus', 'entorhinal', 'fusiform', 'inferiorparietal', 
+      'inferiortemporal', 'isthmuscingulate', 'lateraloccipital', 'lateralorbitofrontal', 'lingual', 'medialorbitofrontal', 
+      'middletemporal', 'parahippocampal', 'paracentral', 'parsopercularis', 'parsorbitalis', 'parstriangularis', 'pericalcarine', 'postcentral',
+      'posteriorcingulate', 'precentral', 'precuneus', 'rostralanteriorcingulate', 'rostralmiddlefrontal', 'superiorfrontal', 
+      'superiorparietal', 'superiortemporal', 'supramarginal', 'transversetemporal', 'insula']
+parcellation: "DKTatlas"
